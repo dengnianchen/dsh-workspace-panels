@@ -18,7 +18,7 @@
  */
 
 window.__ModuleLoader__.load({
-  id: 'dsh-workspace-panels',
+  id: '@dyapple/dsh-workspace-panels',
   factory(require) {
     const React = require('react')
     const { createRoot } = require('react-dom/client')
@@ -28,7 +28,7 @@ window.__ModuleLoader__.load({
     /** Locale namespace of every string this plugin renders. */
     const NS = 'workspace-panels'
     /** Tab-type identity in the right Sidebar's registry. */
-    const TYPE_ID = 'dsh-workspace-panels/panel'
+    const TYPE_ID = '@dyapple/dsh-workspace-panels/panel'
     /** Page kind the guide card opens; also the params key namespace. */
     const KIND = 'workspace-panels'
     /** Guide entry identity inside this type. */

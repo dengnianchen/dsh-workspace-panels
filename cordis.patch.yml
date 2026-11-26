@@ -11,5 +11,5 @@
 #   skillName        name of the bundled panel-authoring skill; default: "workspace-panels"
 - insert:
     - id: workspace-panels
-      name: 'dsh-workspace-panels'
+      name: '@dyapple/dsh-workspace-panels'
       config: {}

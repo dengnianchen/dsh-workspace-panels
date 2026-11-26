@@ -1,4 +1,4 @@
-# 工作区视图 · dsh-workspace-panels
+# 工作区视图 · @dyapple/dsh-workspace-panels
 
 给每个工作区一份自己的侧栏视图：DSH 右侧栏「开始」页里多一张 **工作区视图** 卡片，点开是当前会话所属工作区自定义的视图列表，选中就在侧栏标签页里渲染它 —— 可以同时开好几个。
 
@@ -17,13 +17,13 @@ DSH 的右侧栏原本是"把某个事实看近一点"的地方：文件、Git�
 DSH 插件页 → **添加插件**，填入：
 
 ```
-github:dengnianchen/dsh-workspace-panels#v0.1.0-alpha.1
+github:dengnianchen/dsh-workspace-panels#v0.1.0-alpha.2
 ```
 
 或者让 Agent 用 `plugin_manager` 装同一个规格：
 
 ```text
-plugin_manager action=install_bundle target=github:dengnianchen/dsh-workspace-panels#v0.1.0-alpha.1
+plugin_manager action=install_bundle target=github:dengnianchen/dsh-workspace-panels#v0.1.0-alpha.2
 ```
 
 安装后无需配置。装的是 git tag 快照；升级换 tag 重装即可（见 [开发](#开发)）。
