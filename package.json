@@ -1,6 +1,6 @@
 {
-  "name": "dsh-workspace-panels",
-  "version": "0.1.0-alpha.1",
+  "name": "@dyapple/dsh-workspace-panels",
+  "version": "0.1.0-alpha.2",
   "description": "工作区视图：为 DSH 右侧栏「开始」页加一张卡片，列出当前会话所属工作区的自定义视图，选中即在侧栏标签页中渲染，可多开。附带 workspace-panels 技能。",
   "type": "module",
   "main": "index.js",
@@ -44,6 +44,9 @@
   "homepage": "https://github.com/dengnianchen/dsh-workspace-panels#readme",
   "bugs": {
     "url": "https://github.com/dengnianchen/dsh-workspace-panels/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dsh": {
     "bundle": {
