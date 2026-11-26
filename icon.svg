@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Workspace panels">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#111827"/>
+  <rect x="13" y="13" width="17" height="15" rx="3.5" fill="#4d6bfe"/>
+  <rect x="34" y="13" width="17" height="15" rx="3.5" fill="none" stroke="#e5e7eb" stroke-width="2.4"/>
+  <rect x="13" y="32" width="17" height="15" rx="3.5" fill="none" stroke="#e5e7eb" stroke-width="2.4"/>
+  <rect x="34" y="32" width="17" height="15" rx="3.5" fill="#4d6bfe" opacity="0.55"/>
+  <path d="M40 55h10M45 50v10" stroke="#f6c445" stroke-width="3" stroke-linecap="round"/>
+</svg>

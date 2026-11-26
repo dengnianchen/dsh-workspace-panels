@@ -1,0 +1,61 @@
+{
+  "name": "dsh-workspace-panels",
+  "version": "0.1.0-alpha.1",
+  "description": "工作区视图：为 DSH 右侧栏「开始」页加一张卡片，列出当前会话所属工作区的自定义视图，选中即在侧栏标签页中渲染，可多开。附带 workspace-panels 技能。",
+  "type": "module",
+  "main": "index.js",
+  "icon": "./icon.svg",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "assets",
+    "examples",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workspace",
+    "sidebar",
+    "panel"
+  ],
+  "license": "MIT",
+  "author": "Nianchen Deng <dengnianchen@msn.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengnianchen/dsh-workspace-panels.git"
+  },
+  "homepage": "https://github.com/dengnianchen/dsh-workspace-panels#readme",
+  "bugs": {
+    "url": "https://github.com/dengnianchen/dsh-workspace-panels/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# Workspace-panels bundle — profile patch layer.
+#
+# One loader row. The browser half is picked up through the package's
+# `dsh.client` declaration, exactly like the shipped ui-* packages.
+#
+# Overrides (replace this `config` wholesale; the plugin fills every omitted key):
+#   panelsDir        workspace-relative directory scanned for panel modules;
+#                    default: ".dsh/panels"
+#   maxAssetBytes    largest file the panel asset route serves; default: 2097152
+#   maxReadBytes     largest file a panel may read through api.files; default: 524288
+#   skillName        name of the bundled panel-authoring skill; default: "workspace-panels"
+- insert:
+    - id: workspace-panels
+      name: 'dsh-workspace-panels'
+      config: {}

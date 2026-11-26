@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Workspace views",
+    "description": "Adds a “Workspace views” card to the right Sidebar’s Start page: it lists the views defined by the session’s workspace, and picking one opens it in a right-sidebar tab — several can be open at once. View modules live under the workspace’s agreed directory (.dsh/panels/ by default); other workspaces’ views stay invisible. Ships a workspace-panels skill so an agent can build and debug a view for this workspace.",
+    "detail": "docs/DETAIL.md"
+  }
+}

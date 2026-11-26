@@ -1,0 +1,11 @@
+{
+  "id": "self-check",
+  "title": "面板自检",
+  "description": "验证视图运行环境：React 状态、事件、主题、工作区文件读取、模块重载。写给第一次用「工作区视图」的人。",
+  "entry": "index.js",
+  "styles": [
+    "panel.css"
+  ],
+  "icon": "icon.svg",
+  "order": 0
+}
